@@ -29,7 +29,7 @@ class TestRegistration(unittest.TestCase):
         # закрываем браузер после всех манипуляций
         browser.quit()
         # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
-        self.assertEqual("Congratulations! You have successfully registered!" == welcome_text, True)
+        self.assertEqual("Congratulations! You have successfully registered!", welcome_text, "something went wrong")
 
     def test_rega2(self):
         link2 = "http://suninjuly.github.io/registration2.html"
@@ -53,11 +53,11 @@ class TestRegistration(unittest.TestCase):
         welcome_text_elt = browser.find_element_by_tag_name("h1")
         # записываем в переменную welcome_text текст из элемента welcome_text_elt
         welcome_text = welcome_text_elt.text
-                
+
         # закрываем браузер после всех манипуляций
         browser.quit()
         # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
-        self.assertEqual("Congratulations! You have successfully registered!" == welcome_text, True)
+        self.assertEqual("Congratulations! You have successfully registered!", welcome_text, "something went wrong")
 
 if __name__ == "__main__":
     unittest.main()
