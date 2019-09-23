@@ -1,0 +1,11 @@
+1569225785609	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRAUjy6"
+1569225789182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569225789182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569225789182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569225789182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569225794430	Marionette	INFO	Listening on port 41289
+1569225794447	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend/cli-build/stepic.js?v=1568298360, line 1: Array.forEach is deprecated; use Array.prototype.forEach instead
+
+(/usr/lib/firefox/firefox:4580): dconf-WARNING **: 11:03:31.702: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+1569225859135	Marionette	INFO	Stopped listening on port 41289
